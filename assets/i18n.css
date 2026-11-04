@@ -1,0 +1,44 @@
+/* Shared language navigation; preserve the approved visual system. */
+.language { display: flex; align-items: center; opacity: 1; gap: 0; }
+.language a { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 44px; color: inherit; opacity: .8; font-size: 11px; letter-spacing: .06em; }
+.language a[aria-current="page"] { opacity: 1; font-weight: 600; text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
+.language a:hover { opacity: 1; }
+.language a:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+.nav__links a, .nav__cta { text-align: center; }
+.nav__cta { justify-content: center; }
+.button { white-space: normal; padding-block: 12px; text-align: center; }
+.hero h1, .intro h2, .programs h2, .workflow h2, .quote h2 { overflow-wrap: break-word; }
+.network-section .network-demo-note { margin: 18px 0 0; max-width: 42ch; color: var(--network-secondary); font: 400 12px/1.6 var(--body); letter-spacing: 0; text-transform: none; }
+.network-demo-note[hidden] { display: none; }
+@media (min-width: 1051px) and (max-width: 1250px) {
+  .nav { grid-template-columns: auto 1fr auto; gap: 18px; }
+  .nav__links { gap: 18px; }
+  .nav__actions { gap: 12px; }
+  .nav__cta { max-width: 160px; }
+}
+@media (max-width: 1050px) {
+  .nav { grid-template-columns: minmax(0,1fr) auto; gap: 12px; }
+  .nav__actions { gap: 8px; }
+  .language { display: flex; }
+  .nav__links.is-open { padding: 110px 24px 40px; }
+  body.menu-open .nav__actions { position: relative; z-index: 3; }
+  .nav__links.is-open + .nav__actions .menu-toggle { position: static; }
+}
+@media (max-width: 700px) {
+  .nav { min-height: 112px; grid-template-columns: 1fr; gap: 0; padding-block: 12px 8px; }
+  .brand-lockup { justify-self: start; }
+  .nav__actions { justify-content: space-between; width: 100%; }
+  .language a { min-width: 44px; }
+  .nav__links.is-open { padding-top: 150px; }
+  .nav__links.is-open a { font-size: clamp(27px,8vw,36px); }
+  .hero__content { padding-top: 164px; }
+  .hero__lead { font-size: 16px; }
+  .hero h1 { text-wrap: balance; }
+  .quote-form .button { width: 100%; }
+  .field label { max-width: calc(100% - 30px); }
+  .footer__top { grid-template-columns: minmax(0,1fr); }
+  .footer__top > * { min-width: 0; }
+  .footer__marks { gap: 12px; }
+  .footer__marks .brand__logo { width: 140px; }
+  .footer__dmc-logo { width: 112px; }
+}

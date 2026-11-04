@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="ink" x1="200" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082e2b" stop-opacity=".045"/>
+      <stop offset=".6" stop-color="#082e2b" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#082e2b" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#ink)" stroke-width=".75">
+    <path d="M-100 95 Q850 310 1700 95 M-100 265 Q850 395 1700 265 M-100 450 Q850 470 1700 450 M-100 635 Q850 535 1700 635 M-100 805 Q850 620 1700 805"/>
+    <path d="M240-100 Q-40 450 240 1000 M500-100 Q280 450 500 1000 M760-100 Q650 450 760 1000 M1020-100 Q1020 450 1020 1000 M1280-100 Q1390 450 1280 1000 M1540-100 Q1760 450 1540 1000"/>
+  </g>
+</svg>

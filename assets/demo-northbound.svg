@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 90" role="img" aria-labelledby="t">
+  <title id="t">Northbound Andes, identidad ficticia de demostración</title>
+  <g fill="#fff">
+    <path d="M8 68 42 14l22 35 14-20 30 39H80L64 48 47 68Z"/>
+    <text x="126" y="39" font-family="Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="2">NORTHBOUND</text>
+    <text x="126" y="65" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="6">ANDES</text>
+  </g>
+</svg>
